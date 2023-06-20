@@ -3,6 +3,7 @@ namespace atividade_imc_mstest;
 [TestClass]
 public class UnitTest1
 {
+    // teste unitário.
     [TestMethod]
     public void Teste_Calculo_IMC()
     {
@@ -13,7 +14,7 @@ public class UnitTest1
         i.Calcular_IMC();
         Assert.AreEqual(imc_previsto, i.imc);
     }
-
+    // teste multiplos.
     [DataTestMethod]
     [DataRow("Abaixo do peso")]
     [DataRow("Peso normal")]
